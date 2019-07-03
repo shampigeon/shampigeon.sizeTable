@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Таблица размеров</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<style type="text/css">
+			thead td {
+				background: #f1f4f7;
+				color: #5a6a7c;
+			}
+			.table td {
+				vertical-align: middle;
+				text-align: center;
+				font-weight: 600;
+				font-size: 30px;
+			}
+			.text-content {
+				text-align: justify;
+			}
+			#table-wrapper {
+				padding: 15px;
+			}
+
+		</style>
+	</head>
+	<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12" >
+				<div id="table-wrapper"></div>
+				<div style="padding: 30px">
+					<div><h1>Как определить свой размер?</h1></div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12" >
+				<div class="text-content">
+				<div class="accordion" id="accordionExample">
+				  <div class="card">
+				    <div class="card-header" id="headingOne">
+				      <h5 class="mb-0">
+				        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				          <h2>Одежда</h2>
+				        </button>
+				      </h5>
+				    </div>
+
+				    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+				      <div class="card-body">
+				        <p>Вам понадобится провести измерения с помощью сантиметровой ленты.
+						<p>При измерении обхвата груди лента должна плотно прилегать к телу, спереди проходить по наиболее выступающим точкам, сбоку через подмышечные впадины, сзади обхватывая лопатки.
+						<p>Обхват талии измеряется строго горизонтально по самой узкой части тела, проходя через самую выступающую точку живота.
+						<p>При измерении обхвата бедер лента должна находиться горизонтально, проходя посредине бедра и сзади по наиболее выступающим точкам ягодиц.
+				      </div>
+				    </div>
+				  </div>
+				  <div class="card">
+				    <div class="card-header" id="headingTwo">
+				      <h5 class="mb-0">
+				        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				          <h2>Нижнее белье</h2>
+				        </button>
+				      </h5>
+				    </div>
+				    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+				      <div class="card-body">
+				        <p>Вам понадобится провести измерения с помощью сантиметровой ленты.
+						<p>При измерении обхвата груди лента должна плотно прилегать к телу, спереди проходить по наиболее выступающим точкам, сбоку через подмышечные впадины, сзади обхватывая лопатки.
+						<p>Обхват под грудью измеряется непосредственно под грудью, не натягивая слишком сильно измерительную ленту.
+						<p>Обхват талии измеряется строго горизонтально по самой узкой части тела, проходя через самую выступающую точку живота.
+						<p>При измерении обхвата бедер лента должна находиться горизонтально, проходя посредине бедра и сзади по наиболее выступающим точкам ягодиц.
+				      </div>
+				    </div>
+				  </div>
+				  <div class="card">
+				    <div class="card-header" id="headingThree">
+				      <h5 class="mb-0">
+				        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				          <h2>Обувь</h2>
+				        </button>
+				      </h5>
+				    </div>
+				    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+				      <div class="card-body">
+				        <p>Вам понадобится провести измерения с помощью сантиметровой ленты.
+						<p>Поставьте ногу на чистый лист бумаги. Отметьте крайние границы ступни и измерьте расстояние между самыми удаленными точками стопы.
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<script type="text/javascript">
+			var data = {
+			    "size_grid_params": [
+				    "Обхват груди, см", 
+				    "Обхват талии, см", 
+				    "Обхват бедер, см", 
+				    "Размер Россия", 
+				    "Размер производитель"
+			    ],
+			    "size_grid_entries": [{
+			        "size_ru": "56",
+			        "size_brand": "XXL",
+			        "params": {
+			            "Обхват бедер, см": "106 – 110",
+			            "Обхват груди, см": "104",
+			            "Обхват талии, см": "116"
+			        }
+			    }, {
+			        "size_ru": "54",
+			        "size_brand": "XL",
+			        "params": {
+			            "Обхват бедер, см": "101 – 105",
+			            "Обхват груди, см": "100",
+			            "Обхват талии, см": "112"
+			        }
+			    }, {
+			        "size_ru": "52",
+			        "size_brand": "L/XL",
+			        "params": {
+			            "Обхват бедер, см": "98 – 103",
+			            "Обхват груди, см": "94",
+			            "Обхват талии, см": "108"
+			        }
+			    }, {
+			        "size_ru": "50",
+			        "size_brand": "L",
+			        "params": {
+			            "Обхват бедер, см": "96 – 100",
+			            "Обхват груди, см": "88",
+			            "Обхват талии, см": "104"
+			        }
+			    }, {
+			        "size_ru": "48",
+			        "size_brand": "M/L",
+			        "params": {
+			            "Обхват бедер, см": "94 – 98",
+			            "Обхват груди, см": "82",
+			            "Обхват талии, см": "100"
+			        }
+			    }, {
+			        "size_ru": "46",
+			        "size_brand": "M",
+			        "params": {
+			            "Обхват бедер, см": "91 – 95",
+			            "Обхват груди, см": "76",
+			            "Обхват талии, см": "96"
+			        }
+			    }, {
+			        "size_ru": "44",
+			        "size_brand": "S/M",
+			        "params": {
+			            "Обхват бедер, см": "88 – 92",
+			            "Обхват груди, см": "70",
+			            "Обхват талии, см": "92"
+			        }
+			    }, {
+			        "size_ru": "42",
+			        "size_brand": "S",
+			        "params": {
+			            "Обхват бедер, см": "85 – 90",
+			            "Обхват груди, см": "66",
+			            "Обхват талии, см": "88"
+			        }
+			    }, {
+			        "size_ru": "40",
+			        "size_brand": "XS",
+			        "params": {
+			            "Обхват бедер, см": "75 – 84",
+			            "Обхват груди, см": "60",
+			            "Обхват талии, см": "84"
+			        }
+			    }]
+			};
+		</script>
+
+		<script type="text/javascript">
+			var rows='', th = ''; keysParams = [];
+			var sizes = data.size_grid_entries;
+			for(var key in sizes[0].params) {
+				th += `<td>${key}</td>`;
+				keysParams.push(key);
+			}
+			for(var i = 0; i < sizes.length; i++) {
+				var tdTmp = '';
+				for(var g = 0; g < keysParams.length; g++) {
+					tdTmp += `<td>${sizes[i].params[keysParams[g]]}</td>`
+				}
+				rows += `<tr>
+					<td>${sizes[i].size_ru}</td>
+					<td>${sizes[i].size_brand}</td>
+					${tdTmp}
+				</tr>`;
+			}
+			var table = `<table class="table table-bordered">
+							<thead>
+								<tr>
+									<td style="width: 50px">Размер Россия</td>
+									<td style="width: 50px">Размер производитель</td>
+									${th}
+								</tr>
+							</thead>
+							<tbody>
+								${rows}
+							</tbody>
+						</table>`;
+			document.getElementById('table-wrapper').innerHTML =  table;
+		</script>
+
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
+	</html>
